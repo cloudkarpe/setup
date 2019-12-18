@@ -1,5 +1,7 @@
 AWS + Gmail + GitHub ==> 
+
 Username: cloudkarpe@gmail.com
+
 Password: arohi21@!
 
 
@@ -15,9 +17,9 @@ gcloud container clusters get-credentials standard-cluster-1 --zone asia-southea
 
 # AWS
 
-[AWS](https://ap-southeast-1.console.aws.amazon.com)
-[EKS](https://ap-southeast-1.console.aws.amazon.com/eks)
-[EKS-Cluster](https://ap-southeast-1.console.aws.amazon.com/eks/home?region=ap-southeast-1#/clusters/k8s)
+[AWS](https://signin.aws.amazon.com/) ==>  [EKS](https://ap-southeast-1.console.aws.amazon.com/eks)
+
+[EKS-Cluster @ ap-southeast-1](https://ap-southeast-1.console.aws.amazon.com/eks/home?region=ap-southeast-1#/clusters/k8s)
 
 ```
 API server endpoint
@@ -40,7 +42,11 @@ arn:aws:iam::955192890155:role/k8s
 # Azure
 
 [Azure](https://portal.azure.com/)
+
 Username: cloudkarpe@gmail.com
+
 Password: Shiv21@!
+
 Email: cloudkarpe@gmail.com
+
 Primary Email: amitkarpe@gmail.com
