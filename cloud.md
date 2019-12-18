@@ -1,3 +1,6 @@
+Gmail + GitHub ==> cloudkarpe@gmail.com/arohi21@!
+
+
 # Google
 
 [GCP](https://console.cloud.google.com/)
@@ -8,6 +11,8 @@ gcloud container clusters get-credentials standard-cluster-1 --zone asia-southea
 ```
 
 # AWS
+
+cloudkarpe@gmail.com/arohi21@!
 
 [AWS](https://ap-southeast-1.console.aws.amazon.com)
 [EKS](https://ap-southeast-1.console.aws.amazon.com/eks/
@@ -30,3 +35,5 @@ arn:aws:iam::955192890155:role/k8s
 # Azure
 
 [Azure](https://portal.azure.com/)
+amitkarpe/Shiv21@!
+amitkarpe@gmail.com
