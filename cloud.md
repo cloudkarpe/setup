@@ -13,6 +13,19 @@ cloudkarpe@gmail.com/arohi21@!
 
 ```
 gcloud container clusters get-credentials standard-cluster-1 --zone asia-southeast1-a --project superb-celerity-262402
+
+cloudkarpe@cloudshell:~$ kubectl cluster-info
+Kubernetes master is running at https://35.187.227.123
+GLBCDefaultBackend is running at https://35.187.227.123/api/v1/namespaces/kube-system/services/default-http-backend:http/proxy
+Heapster is running at https://35.187.227.123/api/v1/namespaces/kube-system/services/heapster/proxy
+KubeDNS is running at https://35.187.227.123/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+Metrics-server is running at https://35.187.227.123/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy
+
+cloudkarpe@cloudshell:~$ kubectl get node
+NAME                                                STATUS   ROLES    AGE    VERSION
+gke-standard-cluster-1-default-pool-c55e1b52-gtct   Ready    <none>   107m   v1.15.4-gke.22
+gke-standard-cluster-1-default-pool-c55e1b52-rdcj   Ready    <none>   107m   v1.15.4-gke.22
+gke-standard-cluster-1-default-pool-c55e1b52-xj7c   Ready    <none>   107m   v1.15.4-gke.22
 ```
 
 # AWS
