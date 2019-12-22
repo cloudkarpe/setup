@@ -12,6 +12,8 @@ get_aws-auth:
 
 
 set_config:
+	cat AWSCONFIG
+	echo "Run source AWSCONFIG"
 	. ./AWSCONFIG
 	aws eks --region $(region) update-kubeconfig --name $(cluster_name)
 #	aws eks --region $(region) update-kubeconfig --name $(cluster_name) --kubeconfig ~/.kube/config
