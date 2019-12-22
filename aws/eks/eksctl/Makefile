@@ -1,8 +1,10 @@
+create:
+	aws configure
+	eksctl create cluster -f cluster.yaml
+
+
 setup:
 	sh eks.sh
-
-create:
-	eksctl create cluster -f cluster.yaml
 
 get:
 	eksctl get cluster
