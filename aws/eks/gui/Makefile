@@ -12,8 +12,9 @@ get_aws-auth:
 
 
 set_config:
-	. AWSCONFIG
-	aws eks --region $(region) update-kubeconfig --name $(cluster_name) --kubeconfig ~/.kube/config
+	. ./AWSCONFIG
+	aws eks --region $(region) update-kubeconfig --name $(cluster_name)
+#	aws eks --region $(region) update-kubeconfig --name $(cluster_name) --kubeconfig ~/.kube/config
 #	aws eks --region $(region) update-kubeconfig --name $cluster_name --kubeconfig ~/.kube/config2
 #	aws eks --region us-east-1 update-kubeconfig --name k8s --kubeconfig ~/.kube/config
 
