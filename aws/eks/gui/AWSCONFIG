@@ -1,5 +1,5 @@
 export region=us-east-1
 export cluster_name=k8s
 export name=k8s
-config=~/.kube/config2
+config=~/.kube/config
 export KUBECONFIG=$KUBECONFIG:$config
